@@ -25,7 +25,7 @@ This is a simple notes app built with React and Django rest freamwork.This app d
 - Launch a t2 medium Ubuntu instance in a favourite region (eg. region `us-east-1`).
 -  sg expose port 8080,8000,3000, as port for Jenkins backend and frontend react.
 - SSH into the instance from your local machine.
-
+![note-app-ec2](image/note-app-ec2.png)
 ### Step 3: clone repo
 ```shell
 git clone https://github.com/nusratdevo/note-app-cicd
@@ -64,6 +64,9 @@ To automate the CI/CD pipeline I will set up a Webhook.
 Provide the GitHub repo URL.
 -Now any time a change is committed to GitHub, the pipeline will automatically be triggered.
 ![git-repo-add](image/git-repo-add.webp)
+
+### Steps 9: build now
+![3](image/3.png)
 ## Nginx
 
 Install Nginx reverse proxy to make this application available
